@@ -1,0 +1,243 @@
+body{
+	margin:0;
+	font-family: "微软雅黑";
+	min-width:980px;
+}
+h1,h2,h3,h4,h5,h6,ul,li{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.section{
+	padding:80px 0;
+	border-bottom:  1px solid #e5e5e5;
+}
+.container{
+	width: 980px;
+	margin:0 auto;
+	/*text-align: center;*/
+	/*border:2px solid red;*/
+}
+.sub-title{
+	font-size: 42px;
+	text-align: center;
+	font-weight: normal;
+}
+.sub-info{
+	font-size: 18px;
+	color:#767676;
+	text-align: center;
+	margin-top:10px;
+}
+/*............头部开始.......*/
+.header{
+	padding: 15px 0;
+	/*border:1px solid red;*/
+	background: #f5f5f5;
+}
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.header-c{
+	height: 30px;
+	line-height: 30px;
+}
+.search{
+	width: 360px;
+	border:1px solid #ccc;
+	background: #fff;
+	color: #ccc;
+	font-size: 12px;
+	float: left;
+	border-radius:5px; 
+}
+.functionlist{
+	float: left;
+}
+/*后代选择*/
+.functionlist li{
+	float: left;
+	padding:0 7px;
+	font-size: 15px;
+	font-weight: none;
+}
+/*群组*/
+.signin,.sigup{
+	font-size: 13px;
+	padding:6px 12px;
+	border:1px solid #d5d5de;	
+	float: right;
+	border-radius: 5px;
+	/*margin-top: -8px;*/
+	line-height: 25px;
+}
+.sigup{
+	color: #fff;
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+.signin{
+	margin-left: 10px;
+	background-image: linear-gradient(#fcfcfc, #eee);
+
+}
+/*...............第一块开始................*/
+.main{
+	background: black;
+}
+/*TODO :待优化（浮动的收缩问题）*/
+.main-c{
+	height: 351px;
+}
+.main-intro{
+	width: 620px;
+	color: #f5f5f5;
+	/*border:1px solid green;*/
+	float: left;
+}
+.big-title {
+	font-size: 70px;
+	padding-top: 10px;
+}
+a{
+	text-decoration: none;
+}
+.main-intro p{
+	color: #fff;
+	font-size: 21px;
+	line-height: 1em;
+}
+.sigup-form{
+	width: 320px;
+	height: 351px;
+	/*border:1px solid white;*/
+	float: right;
+}
+.solid{
+	height: 44px;
+	background: #fafafa;
+	font-size: 16px;
+	/*border:1px solid black;*/
+	border-radius: 10px;
+	margin-top: 10px;
+	line-height: 40px;
+	color: #333;
+}
+.week{
+	height: 40px;
+	 color:#fff;
+	border-radius: 5px;
+	background-image: linear-gradient(#8add6d,#60b044);
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*.............第二块开始.............*/
+.enterprise{
+	height: 186px;
+	/*background-image: -webkit-linear-gradient(#202d5f,#614381);*/
+	background-image: linear-gradient(#202d5f,#614381);
+}
+.enterprise h2{
+	color: white;
+}
+.btn{
+	text-align: center;
+	color: #f5f5f5;
+	padding:12px 20px;
+	font-size: 18px;
+	border-radius: 6px;
+	/*border:1px solid white;*/
+}
+.plue{
+	text-align: center;
+}
+.btn-blue{
+	width: 346px;
+	/*margin:12px auto;*/
+	background-image: linear-gradient(#45b3f3,#1d6ac8);
+	text-align: center;
+	display: inline-block;
+}
+.gh-image{
+	width: 100%;
+	margin-top:10px;
+	/*padding-top: 10px;*/
+}
+/*...............第三块开始..................*/
+.love{
+	height: 750px;
+}
+.l-img{
+	width: 100px;
+	height: 100px;
+	/*border:1px solid black;*/
+	margin:20px auto 30px;
+	border-radius: 50%;
+}
+.love-reason{
+	width: 450px;
+	height: 300px;
+	/*border:1px solid black;*/
+	float: left;
+	text-align: center;
+	padding :15px 0;
+}
+
+/*.............第四块开始..............*/
+.btn-green{
+	width: 288px;
+	/*margin:12px auto;*/
+	background-image: linear-gradient(#8add6d,#60b044);
+	text-align: center;
+	display: inline-block;
+}
+.sigup-form p{
+	margin-top: 5px;
+	color: #767676;
+	font-size: 12px;
+}
+.use{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 21px;
+	margin-bottom: 15px;
+	color: #333;
+}
+/*........底部开始.............*/
+.bottom{
+	padding: 45px 0;
+
+}
+.bottom-c{
+	height: 30px;
+	line-height: 30px;
+	/*border:1px solid red;*/
+}
+.bottom ul{
+	float: left;
+}
+.access li{
+	float: left;
+	padding: 0 6px;
+	font-size: 10px;
+	color: #333;
+}
+.cat{
+	padding :0 150px;
+
+}
+.base li{
+	float: right;
+	font-size: 10px;
+    padding: 0 6px;
+}
+
+
+
+
+
+
